@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="APIVideo:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/APIVideo_jar</output-path>
+    <root id="archive" name="APIVideo.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/out/artifacts/APIVideo_main_jar/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="APIVideo_main" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jsoup/jsoup/1.10.3/b842f960942503cf1abbcc8c173a7f2c19d43726/jsoup-1.10.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.1/2a8e0aa38a2e21cb39e2f5a7d6704cbdc941da0/gson-2.8.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mongodb/mongodb-driver/3.5.0/9d6e31e3073aa8c999ba609aa76185e46f226bdb/mongodb-driver-3.5.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mongodb/bson/3.5.0/b639bed341c069622c39f14c5ad5bd42b4655337/bson-3.5.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mongodb/mongodb-driver-core/3.5.0/968cbc3dffd79cae1136f751079ad39315d09d99/mongodb-driver-core-3.5.0.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

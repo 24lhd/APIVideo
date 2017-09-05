@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/APIVideo.iml" filepath="$PROJECT_DIR$/.idea/modules/APIVideo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/APIVideo_main.iml" filepath="$PROJECT_DIR$/.idea/modules/APIVideo_main.iml" group="APIVideo" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/APIVideo_test.iml" filepath="$PROJECT_DIR$/.idea/modules/APIVideo_test.iml" group="APIVideo" />
+    </modules>
+  </component>
+</project>
