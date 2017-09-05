@@ -1,6 +1,5 @@
 package parser;
 
-import com.google.gson.Gson;
 import item.ItemCategoryNews;
 import item.ItemVideo;
 import obj.Config;
@@ -23,7 +22,7 @@ public class ParserVnExpress {
         for (ItemCategoryNews itemCategoryNews : Config.getListCategoryVnExpress()) {
             videos.addAll(parserVideoByUrl(itemCategoryNews.getLink(), itemCategoryNews.getIdCategory()));
         }
-        Gson gson = new Gson();
+        System.out.println("Lấy được số video VnExpress: " + videos.size());
         return videos;
     }
 
