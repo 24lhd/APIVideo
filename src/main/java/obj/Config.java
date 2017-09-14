@@ -34,6 +34,7 @@ public class Config {
         itemCategories.add(new ItemCategory("cgOtoXeMay", "Ô tô - Xe máy "));
         itemCategories.add(new ItemCategory("cgDuLich", "Du lịch"));
         itemCategories.add(new ItemCategory("cgGiaDinh", "Gia đình"));
+        itemCategories.add(new ItemCategory("cgAmThuc", "Ẩm thực"));
         itemCategories.add(new ItemCategory("cgSucKhoe", "Sức khỏe"));
         itemCategories.add(new ItemCategory("cgChuyenLa", "Chuyện lạ"));
         itemCategories.add(new ItemCategory("cgGiaoDuc", "Giáo dục"));
@@ -154,6 +155,43 @@ public class Config {
                 "http://dantri.com.vn/video/doi-song.htm"));
         itemCategories.add(new ItemCategoryNews("cgChuyenLa",
                 "http://dantri.com.vn/video/chuyen-la.htm"));
+        return itemCategories;
+    }
+
+    public static ArrayList<ItemCategoryNews> getListCategoryNewZing() {
+        ArrayList<ItemCategoryNews> itemCategories = new ArrayList<>();
+        itemCategories.add(new ItemCategoryNews("cgThoiSu",
+                "http://news.zing.vn/video-thoi-su.html"));
+        itemCategories.add(new ItemCategoryNews("cgTheThao",
+                "http://news.zing.vn/video-the-thao.html"));
+        itemCategories.add(new ItemCategoryNews("cgGiaiTri",
+                "http://news.zing.vn/video-giai-tri.html"));
+        itemCategories.add(new ItemCategoryNews("cgGiaiTri",
+                "http://news.zing.vn/video-am-nhac.html"));
+        itemCategories.add(new ItemCategoryNews("cgGiaiTri",
+                "http://news.zing.vn/video-phim-anh.html"));
+        itemCategories.add(new ItemCategoryNews("cgPhapLuat",
+                "http://news.zing.vn/video-phap-luat.html"));
+        itemCategories.add(new ItemCategoryNews("cgKinhDoanh",
+                "http://news.zing.vn/video-kinh-doanh-tai-chinh.html"));
+        itemCategories.add(new ItemCategoryNews("cgSoHoa",
+                "http://news.zing.vn/video-cong-nghe.html"));
+        itemCategories.add(new ItemCategoryNews("cgOtoXeMay",
+                "http://news.zing.vn/video-oto-xe-may.html"));
+        itemCategories.add(new ItemCategoryNews("cgDuLich",
+                "http://news.zing.vn/video-du-lich.html"));
+        itemCategories.add(new ItemCategoryNews("cgSucKhoe",
+                "http://news.zing.vn/video-suc-khoe.html"));
+        itemCategories.add(new ItemCategoryNews("cgGiaoDuc",
+                "http://news.zing.vn/video-giao-duc.html"));
+        itemCategories.add(new ItemCategoryNews("cgKhoaHoc",
+                "http://news.zing.vn/video-nhip-song.html"));
+        itemCategories.add(new ItemCategoryNews("cgTuoiTre",
+                "http://news.zing.vn/video-song-tre.html"));
+        itemCategories.add(new ItemCategoryNews("cgThoiTrang",
+                "http://news.zing.vn/video-thoi-trang.html"));
+        itemCategories.add(new ItemCategoryNews("cgAmThuc",
+                "http://news.zing.vn/video-am-thuc.html"));
         return itemCategories;
     }
 }

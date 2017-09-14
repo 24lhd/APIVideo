@@ -9,10 +9,7 @@ import obj.Config;
 import org.bson.BsonDocument;
 import org.bson.BsonString;
 import org.bson.Document;
-import parser.Parser24h;
-import parser.ParserDanTri;
-import parser.ParserVietnamnet;
-import parser.ParserVnExpress;
+import parser.*;
 
 import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
@@ -69,8 +66,15 @@ public class Main {
                 runPutDanTri(documentMongoCollection);
                 runPut14h(documentMongoCollection);
                 runPutVietnamnet(documentMongoCollection);
+                runPutNewZing(documentMongoCollection);
             }
         }, 0, 5, TimeUnit.MINUTES);
+    }
+
+    private static void runPutNewZing(MongoCollection<Document> documentMongoCollection) {
+        for (ItemVideo itemVideo : new ParserNewZing().getListVideos()) {
+            putItemVideoWhenNotExists(itemVideo, documentMongoCollection);
+        }
     }
 
     private static void runPutVietnamnet(MongoCollection<Document> documentMongoCollection) {
